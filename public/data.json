@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "timestamp": "2018-07-11 21:32:12 UTC",
+    "count": 3,
+    "total": 3,
+    "page": null,
+    "pages": 1,
+    "type": "all",
+    "user_is": "both"
+  },
+  "data": [
+    {
+      "id": 738,
+      "status": "pending_adjudication",
+      "updated_at": "2018-04-19T14:26:01Z",
+      "last_message": {
+        "id": 2208,
+        "message": "Hey there, your space looks great. Do you offer a discounted rate for booking by the month?",
+        "user_from": {
+          "id": 5,
+          "first_name": "Renter"
+        },
+        "updated_at": "2018-04-19T14:26:01Z"
+      },
+      "user": {
+        "id": 5,
+        "first_name": "Renter"
+      },
+      "owner": {
+        "id": 1,
+        "first_name": "Owner"
+      },
+      "listing": {
+        "id": 237,
+        "title": "Awesome space in the heart of Chelsea",
+        "photo_small": "https://d1q9ztij0byik7.cloudfront.net/tsf/j6XmXCdQ2mOKFfpe4VZD_WhiteHouseSouthFacade.JPG"
+      },
+      "terms": {
+        "start_date": "2018-05-01",
+        "end_date": "2018-05-31",
+        "readable_native_price": "$48,510.00",
+        "readable_native_charge_total": "$66,929.24",
+        "readable_native_payout_amount": "$55,774.37"
+      }
+    },
+    {
+      "id": 737,
+      "status": "approved",
+      "updated_at": "2018-04-18T14:26:01Z",
+      "last_message": {
+        "id": 2207,
+        "message": "Hey, I'm doing an event involving children's clothing - can you confirm there are no businesses near by that would be detrimental to the success of my popup?",
+        "user_from": {
+          "id": 5,
+          "first_name": "Renter"
+        },
+        "updated_at": "2018-04-18T14:26:01Z"
+      },
+      "user": {
+        "id": 5,
+        "first_name": "Renter"
+      },
+      "owner": {
+        "id": 2,
+        "first_name": "Owner"
+      },
+      "listing": {
+        "id": 236,
+        "title": "Cool shop in Soho",
+        "photo_small": "https://d1q9ztij0byik7.cloudfront.net/tsf/j6XmXCdQ2mOKFfpe4VZD_WhiteHouseSouthFacade.JPG"
+      },
+      "terms": {
+        "start_date": "2018-05-01",
+        "end_date": "2018-05-31",
+        "readable_native_price": "$40,000.00",
+        "readable_native_charge_total": "$48,000.00",
+        "readable_native_payout_amount": "$40,000.00"
+      }
+    },
+    {
+      "id": 736,
+      "status": "paid",
+      "updated_at": "2018-03-01T18:00:01Z",
+      "last_message": {
+        "id": 2206,
+        "message": "Hey, the event was a huge success!",
+        "user_from": {
+          "id": 5,
+          "first_name": "Renter"
+        },
+        "updated_at": "2018-03-01T18:00:01Z"
+      },
+      "user": {
+        "id": 5,
+        "first_name": "Renter"
+      },
+      "owner": {
+        "id": 3,
+        "first_name": "Owner"
+      },
+      "listing": {
+        "id": 235,
+        "title": "Popular shop in the East Village",
+        "photo_small": "https://d1q9ztij0byik7.cloudfront.net/tsf/j6XmXCdQ2mOKFfpe4VZD_WhiteHouseSouthFacade.JPG"
+      },
+      "terms": {
+        "start_date": "2018-02-01",
+        "end_date": "2018-02-28",
+        "readable_native_price": "$25,000.00",
+        "readable_native_charge_total": "$30,000.00",
+        "readable_native_payout_amount": "$25,000.00"
+      }
+    }
+  ]
+}
