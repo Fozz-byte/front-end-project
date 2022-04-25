@@ -27,17 +27,12 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      listings: [],
+      listings: Data.getListing(),
     };
 
     this.getListing = this.getListing.bind(this);
   }
 
-    getListing() {
-      Data.getListing().then((listings) => {
-        this.setState({ listings: listings })
-      });
-    }
 
   render() {
     return (
@@ -48,8 +43,7 @@ class App extends React.Component {
             When prospective renters contacts you about your listings, their
             inquires are listed here.
           </p>
-          <InquiresList listings={listings} />
-          {/* <InquiresList listings={this.state.listings} /> */}
+          <InquiresList listings={this.state.listings} />
         </div>
       </div>
     );
